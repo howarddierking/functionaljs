@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha ./test --recursive",
+    "test:debug": "./node_modules/mocha/bin/mocha debug ./test --recursive"
+  },
   "dependencies": {
     "ramda": "^0.25.0"
   },
